@@ -49,6 +49,11 @@
   color: #4743de;
 }
 
+.card__price-currency {
+  font-weight: bold;
+  color: #4743de;
+}
+
 .cart-footer {
   display: flex;
   justify-content: space-between;

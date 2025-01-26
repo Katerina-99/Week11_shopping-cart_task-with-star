@@ -12,7 +12,11 @@
       <div class="cart">
         <div class="cart__item card">
           <div class="cart__image">
-            <img class="card__image" src="./assets/image/blouse.webp" alt="" />
+            <img
+              class="card__image"
+              src="./assets/image/blouse.webp"
+              alt="image blouse"
+            />
           </div>
           <div class="card__description description">
             <h2 class="card__title">RESEDVED блузка</h2>
@@ -20,7 +24,8 @@
             <p class="description__item">Размер: М</p>
             <p class="description__item">Количество: 1</p>
           </div>
-          <p class="card__price">7999.2<span>&nbsp;руб.</span></p>
+          <p id="blouse-price" class="card__price">9999</p>
+          <span class="card__price-currency">&nbsp;руб.</span>
         </div>
         <div class="cart__item card">
           <div class="cart__image">
@@ -32,7 +37,8 @@
             <p class="description__item">Размер: 39</p>
             <p class="description__item">Количество: 1</p>
           </div>
-          <p class="card__price">5112<span>&nbsp;руб.</span></p>
+          <p id="shoes-price" class="card__price">6390</p>
+          <span class="card__price-currency">&nbsp;руб.</span>
         </div>
         <div class="cart__item card">
           <div class="cart__image">
@@ -44,7 +50,8 @@
             <p class="description__item">Размер: L</p>
             <p class="description__item">Количество: 1</p>
           </div>
-          <p class="card__price">9032<span>&nbsp;руб.</span></p>
+          <p id="dress-price" class="card__price">11290</p>
+          <span class="card__price-currency">&nbsp;руб.</span>
         </div>
         <div class="cart__item card">
           <div class="cart__image">
@@ -56,14 +63,19 @@
             <p class="description__item">Размер: 90см</p>
             <p class="description__item">Количество: 1</p>
           </div>
-          <p class="card__price">2040<span>&nbsp;руб.</span></p>
+          <p id="belt-price" class="card__price">2550</p>
+          <span class="card__price-currency">&nbsp;руб.</span>
         </div>
       </div>
       <div class="cart-footer">
-        <button class="cart-footer__button">Использовать купон на 20%</button>
+        <button id="button-discount" class="cart-footer__button">
+          Использовать купон на 20%
+        </button>
         <div class="cart-footer__total">
           <p class="cart-footer__text">Итого:</p>
-          <p class="cart-footer__total-price">111111 <span>&nbsp;руб.</span></p>
+          <p class="cart-footer__total-price">
+            <span id="total-price"></span><span>&nbsp;руб.</span>
+          </p>
         </div>
       </div>
     </div>
